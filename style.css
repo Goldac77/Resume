@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+body {
+  margin: auto;
+  width: 55%;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  list-style-type: none;
+}
+
+li {
+  line-height: 2em;
+}
+
+/*Working on Main*/
+main {
+  width: 70%;
+  margin: 3em 0em 2em 3em;
+  padding-right: 5em;
+}
+
+#header_img {
+  border-radius: 50%;
+  height: 7em;
+  width: 7em;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+}
+
+#profile, #employment_history, #education, #references, #courses {
+  margin-bottom: 2.25em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+#employment_history p, #education p{
+  color: #B8BCC3;
+}
+
+h2 {
+  font-family: 'Monda', sans-serif;
+  color: #00ACC1;
+}
+
+h4 {
+  font-size: 0.75em;
+  color: #B8BCC3;
+}
+
+
+/*Working on Aside*/
+aside {
+  width: 30%;
+  background-color: #16328A;
+  color: #FFFFFF;
+  padding: 3em;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+#details, #nationality, #dob, #links, #skills, #language {
+  margin-bottom: 2.5em;
+}
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+}
